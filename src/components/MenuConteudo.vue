@@ -1,10 +1,19 @@
 <script>
-import Bloco from "@/components/Bloco.vue";
+import NewBlock from "@/components/Bloco.vue";
 export default {
-  components: { Bloco },
+  components: { NewBlock },
 };
 </script>
 <template>
-  <main id="content"><Bloco /></main>
+  <main id="content">
+    <NewBlock />
+    <NewBlock />
+    <NewBlock />
+    <NewBlock />
+    <NewBlock class="NewBlock" />
+    <NewBlock class="NewBlock" />
+    <NewBlock class="NewBlock" />
+    <NewBlock class="NewBlock" />
+  </main>
 </template>
 <style></style>

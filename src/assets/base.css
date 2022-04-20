@@ -8,13 +8,16 @@ body {
   display: grid;
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
-  grid-template-areas: 
+  grid-template-areas:
     "header header"
     "sidenav content"
     "footer footer";
 }
 
-#header, #content, #sidenav, #footer {
+#header,
+#content,
+#sidenav,
+#footer {
   border: 1px solid green;
 }
 
@@ -40,4 +43,9 @@ body {
   border-radius: 15px;
   padding: 20px;
   margin: 10px;
+}
+.NewBlock:hover {
+  background-color: rgb(198, 198, 218);
+  text-align: center;
+  justify-content: center;
 }

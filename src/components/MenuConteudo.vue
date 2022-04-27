@@ -1,5 +1,5 @@
 <script>
-import NewBlock from "@/components/BloCo.vue";
+import NewBlock from "@/components/NewBlock.vue";
 export default {
   components: { NewBlock },
 };
